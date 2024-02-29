@@ -9,6 +9,5 @@ window.addEventListener("scroll", () => {
     const {scrollHeight, clientHeight, scrollTop} = document.documentElement
     if(scrollTop + clientHeight >= scrollHeight - 1){
       loadContent()
-
     }
 })
